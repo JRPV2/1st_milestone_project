@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet&family=Montserrat&display=swap');
 
 * {
     margin: 0;
@@ -6,10 +6,33 @@
     border: none;
 }
 
-header > nav {
-    background-color: aqua;
+body {
+    font-family: Hahmlet, sans-serif;
+}
+
+header {
+    height: 30px;
 }
 
 a {
     width: 25%;
+    height: 30px;
+    float: left;
+    text-align: center;
+    background-color: ;
+}
+
+#center-piece {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#main-image {
+    background: url('../images/main_image.jpg') no-repeat;
+    height: 630px;
+    width: 100%;
+    background-size: 100% 100%;
 }
