@@ -44,9 +44,9 @@ header, #main-nav > a {
     font-size: 120%;
 }
 
-/* Main image and cover text */
+/* Main images and texts */
 
-#cover-text {
+.text {
     color: white;
     font-family: Hahmlet;
     letter-spacing: 2px;
@@ -54,18 +54,24 @@ header, #main-nav > a {
     height: 90px;
     width: 400px;
 
-    padding-left: 15px;
-    padding-bottom: 5px;
-
-    background-color: rgba(36, 56, 235, 0.75);
-
-    left: 20px;
-    top: 55px;
+    left: 100px;
+    top: 80px;
 
     position: absolute;
 }
 
-#center-piece {
+#main-text {
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+    background-color: rgba(36, 56, 235, 0.4);
+}
+
+#contact-text {
+    color: rgba(36, 56, 235, 1);
+}
+
+.center-piece {
     height: 600px;
     width: 100%;
     overflow: hidden;
@@ -73,9 +79,28 @@ header, #main-nav > a {
     position: relative;
 }
 
-#main-image {
-    background: url('../images/main_image.jpg') no-repeat;
+.image {
     height: 630px;
     width: 100%;
+    background-size: 100% 100%;
+}
+
+#main-image {
+    background: url('../images/main_image.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+#puzzle-image {
+    background: url('../images/puzzle_image.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+#fame-image {
+    background: url('../images/fame_image.jpg') no-repeat;
+    background-size: 100% 100%;
+}
+
+#contact-image {
+    background: url('../images/contact_image.jpg') no-repeat;
     background-size: 100% 100%;
 }
