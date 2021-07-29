@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Hahmlet, sans-serif;
+    font-family: Montserrat, sans-serif;
     color: #1b4b4b;
 }
 
@@ -44,7 +44,26 @@ header, #main-nav > a {
     font-size: 120%;
 }
 
-/* Main image */
+/* Main image and cover text */
+
+#cover-text {
+    color: white;
+    font-family: Hahmlet;
+    letter-spacing: 2px;
+
+    height: 90px;
+    width: 400px;
+
+    padding-left: 15px;
+    padding-bottom: 5px;
+
+    background-color: rgba(36, 56, 235, 0.75);
+
+    left: 20px;
+    top: 55px;
+
+    position: absolute;
+}
 
 #center-piece {
     height: 600px;
