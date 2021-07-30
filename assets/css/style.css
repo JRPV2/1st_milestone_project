@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet&family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 * {
     margin: 0;
@@ -152,4 +152,13 @@ hr {
     height: 400px;
     background-size: 80%;
     margin: 0 auto;
+    position: relative;
+}
+
+#poem {
+    font-family: Special Elite, sans-serif;
+    font-weight: 500;
+    font-size: 180%;
+    margin-bottom: 70px;
+    text-align: center;
 }
