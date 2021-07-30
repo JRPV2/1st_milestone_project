@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hahmlet&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -9,6 +10,10 @@
 body {
     font-family: Montserrat, sans-serif;
     color: #1b4b4b;
+}
+
+h1, h2, h3 {
+    letter-spacing: 2px;
 }
 
 /* Header and nav bar */
@@ -79,13 +84,13 @@ header, #main-nav > a {
     position: relative;
 }
 
-.image {
+.top-image {
     height: 630px;
     width: 100%;
     background-size: 100% 100%;
 }
 
-#main-image {
+#index-image {
     background: url('../images/main_image.jpg') no-repeat;
     background-size: 100% 100%;
 }
@@ -103,4 +108,48 @@ header, #main-nav > a {
 #contact-image {
     background: url('../images/contact_image.jpg') no-repeat;
     background-size: 100% 100%;
+}
+
+/* Why chess */
+
+#why-chess {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#why-chess h2 {
+    padding-top: 30px;
+}
+
+#why-left {
+    width: 33%;
+    float: left;
+}
+
+#why-right {
+    width: 33%;
+    float: right;
+}
+
+.reason {
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 80%;
+    margin: 5px;
+}
+
+#why-image {
+    background: url('../images/royalty.jpg') no-repeat;
+    width: 33%;
+    height: 400px;
+    background-size: 80%;
+    margin: 0 auto;
 }
