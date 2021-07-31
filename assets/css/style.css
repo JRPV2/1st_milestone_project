@@ -12,7 +12,7 @@ body {
     color: #1b4b4b;
 }
 
-h1, h2, h3 {
+h2, h3 {
     letter-spacing: 2px;
 }
 
@@ -27,7 +27,7 @@ header, #main-nav > a {
     border-right: 2px solid white;
 }
 
-#main-nav > a {
+.main-nav > a {
     box-sizing: border-box;
     width: 25%;
     float: left;
@@ -38,16 +38,24 @@ header, #main-nav > a {
     color: #fff;
 }
 
-#main-nav .active {
+.main-nav .active {
     color: rgba(36, 56, 235, 0.8);
     background-color: white;
     font-size: 120%;
 }
 
-#main-nav > a:hover {
+.main-nav > a:hover {
     color: rgba(36, 56, 235, 0.8);
     background-color: white;
     font-size: 120%;
+}
+
+.active-left {
+    border-right: 2px solid rgba(36, 56, 235, 0.8);
+}
+
+.active-right {
+    border-left: 2px solid rgba(36, 56, 235, 0.8);
 }
 
 /* Main images and texts */
@@ -98,7 +106,6 @@ header, #main-nav > a {
 #puzzle-image {
     background: url('../images/puzzles/puzzle_image.jpg') no-repeat;
     background-size: 100%;
-    background-position: center;
 }
 
 #fame-image {
@@ -242,6 +249,8 @@ footer {
 
 /* media queries */
 
+/* 1200px and down */
+
 @media screen and (max-width: 1200px) {
     #why-chess {
         width: 65%;
@@ -259,5 +268,25 @@ footer {
         width: 100%;
         float: left;
         padding: 0;
+    }
+}
+
+/* 950px wide and down */
+
+@media screen and (max-width: 950px) {
+    #main-nav > a {
+        line-height: 120%;
+        width: 25%;
+    }
+
+    .text {
+        width: auto;
+        left: 30px;
+        top: 65px;
+    }
+
+    .active-left, .active-right {
+        border-left: 0;
+        border-right: 0;
     }
 }
