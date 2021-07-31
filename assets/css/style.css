@@ -91,23 +91,25 @@ header, #main-nav > a {
 }
 
 #index-image {
-    background: url('../images/main_image.jpg') no-repeat;
+    background: url('../images/index/main_image.jpg') no-repeat;
     background-size: 100%;
 }
 
 #puzzle-image {
-    background: url('../images/puzzle_image.jpg') no-repeat;
+    background: url('../images/puzzles/puzzle_image.jpg') no-repeat;
     background-size: 100%;
+    background-position: center;
 }
 
 #fame-image {
-    background: url('../images/fame_image.jpg') no-repeat;
+    background: url('../images/fame/fame_image.jpg') no-repeat;
     background-size: 100%;
 }
 
 #contact-image {
-    background: url('../images/contact_image.jpg') no-repeat;
-    background-size: 100% 100%;
+    background: url('../images/contact/contact_image.jpg') no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
 
 /* Why chess */
@@ -147,7 +149,7 @@ header, #main-nav > a {
 }
 
 #why-image {
-    background: url('../images/royalty.jpg') no-repeat;
+    background: url('../images/index/royalty.jpg') no-repeat;
     width: 33%;
     height: 400px;
     background-size: 80%;
@@ -171,7 +173,7 @@ header, #main-nav > a {
 /* meet up times */
 
 #meets {
-    background-image: url('../images/meet_background.jpg');
+    background-image: url('../images/index/meet_background.jpg');
     background-size: 100%;
     height: 500px;
     background-repeat: no-repeat;
@@ -184,4 +186,56 @@ header, #main-nav > a {
     line-height: 200%;
     background-position: center;
     overflow: hidden;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 300%;
+    margin: 1%;
+    padding: 5%;
+    color: #1b4b4b;
+}
+
+/* puzzles.html */
+
+.easier {
+    padding-top: 5%;
+    margin-left: 30px;
+    font-size: 150%;
+}
+
+.easier > div {
+    width: 100%;
+    clear: both;
+}
+
+#mate1 > div {
+    box-sizing: border-box;
+    border-left: 10px;
+    width: 50%;
+    float: left;
+    display: inline;
+}
+
+#mate1_1 {
+    width: 100%;
+    height: 600px;
+}
+
+#mate1_2 {
+    width: 100%;
+    height: 600px;
 }
