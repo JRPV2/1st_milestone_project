@@ -87,22 +87,22 @@ header, #main-nav > a {
 .top-image {
     height: 630px;
     width: 100%;
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 
 #index-image {
     background: url('../images/main_image.jpg') no-repeat;
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 
 #puzzle-image {
     background: url('../images/puzzle_image.jpg') no-repeat;
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 
 #fame-image {
     background: url('../images/fame_image.jpg') no-repeat;
-    background-size: 100% 100%;
+    background-size: 100%;
 }
 
 #contact-image {
@@ -140,7 +140,7 @@ header, #main-nav > a {
     margin-bottom: 30px;
 }
 
-hr {
+#why-chess hr {
     border-top: 1px solid #3a3a3a;
     width: 80%;
     margin: 5px;
@@ -153,7 +153,10 @@ hr {
     background-size: 80%;
     margin: 0 auto;
     position: relative;
+    float: left;
 }
+
+/* chess poem */
 
 #poem {
     font-family: Special Elite, sans-serif;
@@ -161,4 +164,24 @@ hr {
     font-size: 180%;
     margin-bottom: 70px;
     text-align: center;
+    overflow: auto;
+    width: 100%;
+}
+
+/* meet up times */
+
+#meets {
+    background-image: url('../images/meet_background.jpg');
+    background-size: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+#meets div {
+    float: left;
+    width: 32%;
+    text-align: center;
+    line-height: 200%;
+    background-position: center;
+    overflow: hidden;
 }
