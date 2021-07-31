@@ -164,7 +164,7 @@ header, #main-nav > a {
     background-size: 80%;
     margin: 0 auto;
     position: relative;
-    float: left;
+    justify-content: center;
 }
 
 /* chess poem */
@@ -220,34 +220,53 @@ footer {
 
 /* puzzles.html */
 
-.easier {
+.puzzles {
     padding-top: 5%;
     margin-left: 30px;
     font-size: 150%;
+    width: 100%;
 }
 
-.easier > div {
+.puzzles > div {
     width: 100%;
+    height: 500px;
     clear: both;
 }
 
-#mate1 > div {
+.mate {
     box-sizing: border-box;
-    border-left: 10px;
+    border-left: 50px;
     width: 50%;
     float: left;
-    display: inline;
+    display: inline-block;
 }
 
-#mate1_1 {
-    width: 100%;
-    height: 600px;
+.mate > img {
+    width: 50%;
+    height: 50%;
+    float: inherit;
 }
 
-#mate1_2 {
-    width: 100%;
-    height: 600px;
+.mate > p:hover {
+    font-size: 0;
 }
+
+.mate > p:hover:after {
+    content: attr(data-hover);
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 200;
+}
+
+
+
+/* Famous games */
+
+
+
+/* Contact */
+
+
 
 /* media queries */
 
@@ -277,6 +296,12 @@ footer {
         clear: both;
         height: 150px;
         padding-top: 50px;
+    }
+
+    .easier > div > div, .harder > div > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
     }
 }
 

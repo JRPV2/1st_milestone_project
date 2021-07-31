@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="puzzles">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,7 @@
         <meta name="keywords" content="chess ting, chess club, outdoor chess">
 
         <link rel="stylesheet" href="assets/css/style.css">
-        <title>Chess-ting puzzles</title>
+        <title>Puzzles</title>
     </head>
 
     <body>
@@ -31,30 +31,66 @@
 
         </section>
 
-        <section class="easier">
+        <section class="puzzles">
             <h2>Easier:</h2>
 
-            <div id="mate1">
+            <div>
                 <p>Mate in 1</p>
-                <div id="mate1_1">
+                <div class="mate">
                     <img src="/assets/images/puzzles/easier/mate_1_1.jpg" alt="First mate in one.">
-                    text1
+                    <p data-hover="1.g6#">Hover mouse to see solution</p>
                 </div>
 
-                <div id="mate1_2">
+                <div class="mate">
                     <img src="/assets/images/puzzles/easier/mate_1_2.jpg" alt="Second mate in one">
-                    text2
+                    <p data-hover="1.Qh8#">Hover mouse to see solution</p>
                 </div>
             </div>
 
-            <div>mate in 2</div>
-            <div>mate in 3</div>
+            <div>
+                <p>Mate in 2</p>
+                <div class="mate">
+                    <img src="/assets/images/puzzles/easier/mate_2_1.jpg" alt="First mate in two.">
+                    <p data-hover="1.Qxh7+, Kxh7 2.Ra3#">Hover mouse to see solution
+                    
+                    </p>
+                </div>
+
+                <div class="mate">
+                    <img src="/assets/images/puzzles/easier/mate_2_2.jpg" alt="Second mate in twp">
+                    <p data-hover="1.Ng5+, Kg7 2.Qxh7#">Hover mouse to see solution</p>
+                </div>
+            </div>
+            <div>
+                <p>Mate in 3</p>
+                <div class="mate">
+                    <img src="/assets/images/puzzles/easier/mate_3_1.jpg" alt="First mate in three.">
+                    <p data-hover="1.Qxh6+, gxh6 2.Rxh6+, Rh7 3.Bxf6#">Hover mouse to see solution</p>
+                </div>
+
+                <div class="mate">
+                    <img src="/assets/images/puzzles/easier/mate_3_2.jpg" alt="Second mate in three">
+                    <p data-hover="1.Qd6+, Nge7 2.Qd8+, Nxd8 3Rxd8# Note, (if 1... Nce7, then 2.Qd8#)">Hover mouse to see solution</p>
+                </div>
+            </div>
         </section>
 
-        <section>
-            Harder:
-            <div>To move and win</div>
-            <div>Find the one good move!</div>
+        <section class="puzzles">
+            <h2>Harder:</h2>
+
+            <div>
+                <div class="mate">
+                    <img src="/assets/images/puzzles/harder/move_and_win.jpg" alt="White to move and win">
+                    <p data-hover="1.h3+, Kf5 2. Nd4+, Bxd4 3.Re7, Be5 4.Rxe5+, Kxe5 5.f4+, Kxf4 6.Kf2 (White is in a winning position)">White to move and win, hover to see solution.</p>
+                </div>
+
+                <div class="mate">
+                    <img src="/assets/images/puzzles/harder/mate_in_7.jpg" alt="Forced mate in seven">
+                    <!-- I struggled to find many matching colours of chess puzzles. But I wanted to include these two!-->
+                    <p data-hover="1.Qe5+, Ka8 2.Nc7+, Kg8 3.Nxe8+, Kh8 4.Nc7+, Kg8 5.Na6++, Kh8 6.Qb8+, Rxb8 7.Nc7#">White has a forced mate in 7, hover to reveal solution.</p>
+                </div>
+            </div>
+
         </section>
 
         <footer>
