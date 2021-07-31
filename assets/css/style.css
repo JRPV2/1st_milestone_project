@@ -109,6 +109,14 @@ header, #main-nav > a {
     background-size: 100%;
 }
 
+#fallen-image {
+    background: url('../images/puzzles/fallen-king.jpg');
+    background-size: 100%;
+    position: absolute;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
 #fame-image {
     background: url('../images/fame/fame_image.jpg') no-repeat;
     background-size: 100%;
@@ -298,10 +306,16 @@ footer {
         padding-top: 50px;
     }
 
-    .easier > div > div, .harder > div > div {
+    .puzzles > div > div {
         width: 100%;
         clear: both;
-        height: 150px;
+        height: 450px;
+    }
+
+    .puzzles img {
+
+        width: 300px;
+        height: 300px;
     }
 }
 
