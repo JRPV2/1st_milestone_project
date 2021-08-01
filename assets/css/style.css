@@ -282,7 +282,6 @@ footer {
 .text-input {
     width: auto;
     background-color: rgba(33, 83, 248, 0.651);
-    font-size: 160%;
     border: 1px solid black;
     border-radius: 2px;
 }
